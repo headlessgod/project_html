@@ -64,3 +64,77 @@ body, ul {
     flex-wrap: wrap;
     margin: 40px 0 35px 0;
 }
+.header__title {
+    margin: 0 0 15px 0;
+    font-weight: inherit;
+    text-transform: uppercase;
+    color: #f2ac04;
+}
+.header__description {
+    border-left: 1px solid grey;
+    margin-left: 40px;
+    padding: 0 0 0 27px;
+    max-width: 410px;
+}
+.header__text {
+    color: #929292;
+}
+.header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid #929292;
+    border-bottom: 1px solid #929292;
+}
+.header__link {
+    padding: 15px 35px;
+    text-transform: uppercase;
+    color: #929292;
+    display: block;
+    cursor: pointer;
+}
+.header__link:hover {
+    text-decoration: underline;
+}
+.header__menu li:first-child .header__link {
+    padding-left: 0;
+}
+
+
+
+
+
+/*MEDIA*/
+
+
+@media (max-width: 1050px) {
+    .container {
+        padding: 15px;
+    }
+}
+@media (max-width: 710px) {
+    .header__menu {
+        justify-content: center;
+    }
+    .header__link {
+        padding: 10px 15px;
+    }
+}
+@media (max-width: 690px) {
+    .container {
+        padding: 15px;
+    }
+    .header__top {
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 15px 0;
+    }
+    .header__title {
+        margin: 15px 0;
+    }
+    .header__description {
+        margin: 0;
+        padding: 0;
+        border: none;
+        width: 100%;
+    }
+}
