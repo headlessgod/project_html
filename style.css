@@ -100,6 +100,31 @@ body, ul {
 }
 
 
+/*BANNERS STYLES*/
+
+
+.banners {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.banners__title {
+    width: 100%;
+}
+.banners__left {
+    border: 2px solid #92929270;
+}
+.banners__control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banners__btnL, .banners__btnR {
+    color: #f2ac04;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 15px 0;
+}
 
 
 
