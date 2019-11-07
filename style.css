@@ -53,10 +53,19 @@ body, ul {
     width: 55px;
 }
 .logo_size_little {
+    display: flex;
     width: 210px;
-    height: 65px;
-    font-size: 34px;
+    height: 45px;
+    font-size: 24px;
+    justify-content: center;
+    margin: 20px 0;
 }
+.logo_size_little::after, 
+.logo_size_little::before {
+    height: 45px;
+    width: 45px;
+}
+
 
 /*HEADER STYLES*/
 
@@ -311,6 +320,26 @@ font-size: 12px;
     font-size: 16px;
 }
 
+/* FOOTER STYLES */
+
+
+.footer__menu {
+    display: flex;
+    justify-content: center;
+}
+.footer__link {
+    padding: 15px 35px;
+    text-transform: uppercase;
+    color: black;
+    display: block;
+    cursor: pointer;
+}
+.footer__under {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    color: black;
+}
 
 
 
