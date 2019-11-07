@@ -144,8 +144,6 @@ body, ul {
     display: flex;
     font-size: 14px;
 }
-.moreText {
-}
 .morearrow {
     border-left: 1px solid white;
     padding: 3px 5px;
