@@ -197,6 +197,8 @@ body, ul {
 
 .info {
 display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .info__title {
     margin: 0 0 35px 0;
@@ -298,6 +300,17 @@ font-size: 12px;
         padding: 15px;
     }
 }
+@media (max-width: 830px) {
+    .info__news, .info__about, .info__contacts {
+        width: 50%;
+    }
+    .info__about {
+        border: none;
+    }  
+    .info__contacts {
+        margin-top: 15px;
+    }
+}
 @media (max-width: 710px) {
     .header__menu {
         justify-content: center;
@@ -325,3 +338,12 @@ font-size: 12px;
         width: 100%;
     }
 }
+@media (max-width: 510px){
+    .info__news, .info__about, .info__contacts {
+        width: 90%;
+    }
+    .info__about {
+        margin-top: 15px;
+    }
+}
+    
